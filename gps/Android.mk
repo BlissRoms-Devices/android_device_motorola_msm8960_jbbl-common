@@ -23,7 +23,7 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(BOARD_VENDOR),motorola-qcom)
-ifneq ($(filter mb886 xt897 xt897c xt925_jbbl,$(TARGET_DEVICE)),)
+ifneq ($(filter mb886 xt897 xt897c xt901 xt905 xt907 xt925_jbbl xt926,$(TARGET_DEVICE)),)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
 endif
